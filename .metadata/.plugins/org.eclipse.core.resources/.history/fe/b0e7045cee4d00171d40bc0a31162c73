@@ -1,0 +1,12 @@
+package romvarac.Duck.Behaviors;
+
+import romvarac.Duck.Interface.FlyBehavior;
+
+public class FlyNoWay implements FlyBehavior{
+
+	@Override
+	public void fly() {
+		System.out.println("Fly no way");
+	}
+
+}

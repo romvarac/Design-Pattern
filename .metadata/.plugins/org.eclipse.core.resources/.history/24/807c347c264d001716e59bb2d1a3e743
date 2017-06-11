@@ -1,0 +1,9 @@
+package romvarac.java8;
+
+public class LamdaExpression {
+	
+	public static void main(String args[]){
+		
+	}
+	
+}

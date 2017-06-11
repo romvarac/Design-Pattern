@@ -1,0 +1,11 @@
+package romvarac.Duck.Main;
+
+import romvaracDuck.Types.MallardDuck;
+
+public class MiniDuckSimulator {
+
+	public static void main(String[] args) {
+		Duck duck = MallardDuck();
+	}
+
+}

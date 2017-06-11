@@ -1,0 +1,5 @@
+package romvarac.Duck.Behaviors;
+
+public class FlyWithWings {
+
+}

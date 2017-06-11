@@ -1,0 +1,15 @@
+package romvarac.Duck.Abstraction;
+
+import romvarac.Duck.Interface.FlyBehavior;
+import romvarac.Duck.Interface.QuackBehavior;
+
+public abstract class Duck {
+	public FlyBehavior flybehavior;
+	public QuackBehavior quackBehavior;
+	
+	public Duck() {
+		
+	}
+	
+	public abstract void Display();
+}

@@ -1,0 +1,12 @@
+package romvarac.java8;
+
+public class LamdaExpression {
+	public static void main(String args[]){
+	      GreetingService greetingService = message -> System.out.println("romvarac " + message);
+	      greetingService.sayMessage("ngoc bui");
+	   }
+		
+	   interface GreetingService {
+	      void sayMessage(String message);
+	   }
+}

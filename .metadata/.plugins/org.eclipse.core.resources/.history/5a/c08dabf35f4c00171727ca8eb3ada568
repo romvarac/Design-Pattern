@@ -1,0 +1,31 @@
+package romvarac.java8;
+
+public class LamdaExpression {
+	
+	public static void main(String args[]){
+		Vehicle vehicle = new Car();
+		vehicle.print();
+	}
+	
+	
+}
+interface Vehicle{
+	default void print(){
+		System.out.println("vehicle");
+	}
+}
+
+interface FourWheel{
+	default void print(){
+		System.out.println("fourWheel");
+	}
+}
+
+class Car implements Vehicle, FourWheel {
+
+	@Override
+	public void print() {
+		Vehicle.super.print();
+		FourWheel.super.print();
+	}
+}

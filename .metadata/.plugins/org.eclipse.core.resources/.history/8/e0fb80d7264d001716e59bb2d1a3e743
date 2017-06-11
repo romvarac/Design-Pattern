@@ -1,0 +1,13 @@
+package romvarac.java8;
+
+import java.time.LocalDate;
+import java.time.Month;
+
+public class LamdaExpression {
+	
+	public static void main(String args[]){
+		LocalDate date = LocalDate.of(2014, Month.JULY, 1);
+		System.out.println("rovmarac" + date);
+	}
+	
+}

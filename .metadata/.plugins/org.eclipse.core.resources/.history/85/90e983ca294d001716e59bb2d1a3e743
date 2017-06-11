@@ -1,0 +1,23 @@
+package romvarac.java8;
+
+import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
+public class LamdaExpression {
+	
+	public static void main(String args[]){
+		
+	}
+	private static List<Integer> getDevelopers() {
+
+		List<Integer> result = new ArrayList<Integer>();
+		result.add(4);
+		result.add(15);
+		result.add(50);
+		
+		return result;
+	}
+	
+}

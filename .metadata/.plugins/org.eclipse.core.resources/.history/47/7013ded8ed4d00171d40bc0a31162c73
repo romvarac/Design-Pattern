@@ -1,0 +1,18 @@
+package romvaracDuck.Types;
+
+import romvarac.Duck.Abstraction.Duck;
+import romvarac.Duck.Behaviors.FlyWithWings;
+import romvarac.Duck.Behaviors.Quack;
+
+public class MallardDuck extends Duck{
+
+	public MallardDuck() {
+		quackBehavior = new Quack();
+		flyBehavior = new FlyWithWings();
+	}
+	@Override
+	public void Display() {
+		
+	}
+
+}

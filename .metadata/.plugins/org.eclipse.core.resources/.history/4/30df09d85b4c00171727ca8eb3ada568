@@ -1,0 +1,13 @@
+package romvarac.java8;
+
+public class LamdaExpression {
+	public static void main(String args[]){
+	      GreetingService greetService1 = message -> 
+	      System.out.println("romvarac" + message);
+	      greetService1.sayMessage("Mahesh");
+	   }
+		
+	   interface GreetingService {
+	      void sayMessage(String message);
+	   }
+}
